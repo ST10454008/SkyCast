@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#78ceeb"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/Return_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return Home"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="599dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="214dp"
+        android:layout_height="165dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/weather_icon_png_2icon"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:id="@+id/Note_for_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you very much for using our app !!!"
+        android:textColor="#FF0000"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="663dp" />
+
+    <TextView
+        android:id="@+id/Result_view2"
+        android:layout_width="236dp"
+        android:layout_height="106dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="357dp"
+        android:fontFamily="sans-serif"
+        android:text="The Average is..."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#5C00FF"
+        android:textSize="16sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/Average_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Enter the Word Average"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="388dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
